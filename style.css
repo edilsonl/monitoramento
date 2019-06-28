@@ -1,0 +1,31 @@
+body {
+    font-family: monospace, "Open Sans", sans-serif;
+    display: flex;
+}
+
+#messages {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 12px;
+    width:85%;
+    display: block;
+	
+	flex-direction: column-reverse;
+    max-height: 200px;
+    min-height: 200px;
+    overflow: scroll;
+}
+
+#map {
+    height: -webkit-fill-available;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+}
+
+#dados {
+    height: auto;  /* The height is 400 pixels */
+    width: 30%;  /* The width is the width of the web page */
+}
+
+#h1,#h2,#h3{
+align=center;
+}
